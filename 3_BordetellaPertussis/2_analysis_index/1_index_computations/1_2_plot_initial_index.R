@@ -58,7 +58,7 @@ points(dataset_with_nodes$time[which(dataset_with_nodes$is.node == 'no')],
 axis(1, at = seq(min_year, max_year, 10), labels = seq(min_year, max_year, 10), lwd = 0.5, tck=-0.02, mgp = c(0,-0.4,0))
 axis(2, las = 2, tck=-0.01, lwd = 0.5)
 title(main="Pertussis - France", line=-0.5, outer = F)
-title(ylab="Diversity index", line=0.5, outer = F)
+title(ylab="Index", line=0.5, outer = F)
 title(xlab="Time (years)", line=0, outer = F)
 dev.off()
 ########################################################################################################################################
